@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="Curso_Programação"/>
+	<classpathentry kind="src" path="section_8"/>
+	<classpathentry kind="src" path="programas_Java"/>
+	<classpathentry kind="src" path="section_8_Exercícios_Fixação"/>
+	<classpathentry kind="src" path="section_9"/>
+	<classpathentry kind="src" path="bolsa_de_valores"/>
+	<classpathentry kind="src" path="section_9_Exercícios_Fixação"/>
+	<classpathentry kind="src" path="section_10"/>
+	<classpathentry kind="src" path="section_10_Exercícios_Fixação"/>
+	<classpathentry kind="src" path="section_11"/>
+	<classpathentry kind="src" path="section_12_Enumerações_E_Composições"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
