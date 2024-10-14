@@ -6,19 +6,12 @@ public class Game {
 
 	public static void main(String[] args) {
 
-		// This is a tic tac toe in java.
-
 		Scanner sc = new Scanner(System.in);
 		String[][] board = { { "0", "1", "2" }, { "3", "4", "5" }, { "6", "7", "8" } };
 
-		String p2;
+		String p2 = "o";
 		System.out.print("Player 1: x or o? ");
-		String p1 = sc.nextLine();
-		if (p1.equals("x")) {
-			p2 = "o";
-		} else {
-			p2 = "x";
-		}
+		String p1 = "x";
 		System.out.println("Ok, player 1 = " + p1 + " and player 2 = " + p2);
 
 		int b = 0;
