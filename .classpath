@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="curso_programacao/bolsa_de_valores"/>
+	<classpathentry kind="src" path="curso_programacao/Curso_Programação"/>
+	<classpathentry kind="src" path="curso_programacao/programas_Java"/>
+	<classpathentry kind="src" path="curso_programacao/section_10"/>
+	<classpathentry kind="src" path="curso_programacao/section_10_Exercícios_Fixação"/>
+	<classpathentry kind="src" path="curso_programacao/section_11"/>
+	<classpathentry kind="src" path="curso_programacao/section_12_Enumerações_E_Composições"/>
+	<classpathentry kind="src" path="curso_programacao/section_8"/>
+	<classpathentry kind="src" path="curso_programacao/section_8_Exercícios_Fixação"/>
+	<classpathentry kind="src" path="curso_programacao/section_9"/>
+	<classpathentry kind="src" path="curso_programacao/section_9_Exercícios_Fixação"/>
+	<classpathentry kind="src" path="projetos/jogo_Da_Velha"/>
+	<classpathentry kind="src" path="projetos/src"/>
+	<classpathentry kind="output" path="curso_programacao/bin"/>
+</classpath>
