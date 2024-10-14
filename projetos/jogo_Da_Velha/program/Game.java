@@ -6,6 +6,8 @@ public class Game {
 
 	public static void main(String[] args) {
 
+		// This is a tic tac toe in java.
+
 		Scanner sc = new Scanner(System.in);
 		String[][] board = { { "0", "1", "2" }, { "3", "4", "5" }, { "6", "7", "8" } };
 
