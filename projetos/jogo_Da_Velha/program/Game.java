@@ -9,8 +9,10 @@ public class Game {
 		Scanner sc = new Scanner(System.in);
 		String[][] board = { { "0", "1", "2" }, { "3", "4", "5" }, { "6", "7", "8" } };
 
+
+		// This is a tic tac toe game.
+
 		String p2 = "o";
-		System.out.print("Player 1: x or o? ");
 		String p1 = "x";
 		System.out.println("Ok, player 1 = " + p1 + " and player 2 = " + p2);
 
