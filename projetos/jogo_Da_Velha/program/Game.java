@@ -14,21 +14,33 @@ public class Game {
 
 		String p2 = "o";
 		String p1 = "x";
-		System.out.println("Ok, player 1 = " + p1 + " and player 2 = " + p2);
+		System.out.println("player 1 = " + p1 + " and player 2 = " + p2);
 
+		int jogadas = 0;
 		int b = 0;
 
 		while (b == 0) {
-			System.out.println(b);
+
+
+			
 			System.out.print(display(board));
 
+			System.out.println(jogadas);
+			if (jogadas == 9) {
+				break;
+			}
 			System.out.println("Player 1's turn: ");
 
 			System.out.print("Which number? ");
 			int number = sc.nextInt();
 
+			jogadas+=1;
 			scan1(board, p1, number);
 			b += checkwinning(board, p1, p2);
+
+			if (jogadas == 9) {
+				break;
+			}  
 
 			if (b == 1) {
 				break;
@@ -41,19 +53,28 @@ public class Game {
 			System.out.print("Which number? ");
 			int number2 = sc.nextInt();
 
+			jogadas+=1;
 			scan2(board, p2, number2);
 			b += checkwinning(board, p1, p2);
-
+			
 			if (number == number2) {
 				System.out.println("This is not possible.");
 				break;
 			}
+		
+
+			
 		}
 		sc.close();
+
+		if (jogadas == 9 && (b != 1 && b != 2)) {
+			System.out.println("O jogo empatou. ");
+		} 
+
 		if (b == 1) {
 			System.out.print(display(board));
 			System.out.println("Player 1 venceu!");
-		} else {
+		} else if (b == 2) {
 			System.out.print(display(board));
 
 			System.out.println("Player 2 venceu!");
