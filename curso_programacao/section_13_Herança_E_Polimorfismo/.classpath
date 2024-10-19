@@ -3,5 +3,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="heranca_130"/>
 	<classpathentry kind="src" path="upcasting_E_Downcasting_131"/>
+	<classpathentry kind="src" path="anotacao@override_132"/>
+	<classpathentry kind="src" path="classes_E_Metodosfinal_133"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,16 +1,16 @@
 package entities;
 
-public class SavingsAccount extends Account {
+public class SavingsAccount2 extends Account {
 
 	private Double interestRate;
 	
 	
-	public SavingsAccount() {
+	public SavingsAccount2() {
 		super();
 	}
 
 
-	public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
+	public SavingsAccount2(Integer number, String holder, Double balance, Double interestRate) {
 		super(number, holder, balance);
 		this.interestRate = interestRate;
 	}
@@ -30,6 +30,10 @@ public class SavingsAccount extends Account {
 		balance += balance * interestRate;
 	}
 	
+	@Override
+	public void withdraw(double amount) {
+		balance -= amount;
+	}
 	
 	
 	
