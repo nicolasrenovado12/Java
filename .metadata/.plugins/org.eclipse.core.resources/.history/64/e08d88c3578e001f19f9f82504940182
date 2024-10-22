@@ -1,0 +1,16 @@
+package application;
+
+import entities.Account;
+import entities.SavingsAccount2;
+
+public class Program_Polymorphism {
+
+	public static void main(String[] args) {
+
+		Account acc2 = new Account(100, "Alex", 1000.0);
+		Account acc1 = new SavingsAccount2(1001, "Pedro", 200.0, 4.0);
+		
+		
+	}
+	
+}

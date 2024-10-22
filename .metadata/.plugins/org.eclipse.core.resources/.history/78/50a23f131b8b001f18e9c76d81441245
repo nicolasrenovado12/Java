@@ -1,0 +1,13 @@
+package heranca_130;
+
+public class Program_Heranca {
+
+	public static void main(String[] args) {
+		
+		BusinessAcount account = new BusinessAcount();
+		
+		
+		account.
+	}
+	
+}

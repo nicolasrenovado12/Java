@@ -1,0 +1,21 @@
+package application;
+
+public class A {
+
+	public static void main(String[] args) {
+
+		double capital = 1000;
+		double juros = 0.01;
+		
+		
+		for(int i=0; i< 10; i++) {
+			double montante = capital * Math.pow(1 + juros, i);	
+			System.out.print(montante);
+		}
+		
+		
+		
+		
+	}
+
+}

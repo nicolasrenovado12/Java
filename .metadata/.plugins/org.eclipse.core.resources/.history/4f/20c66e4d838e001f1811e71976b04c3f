@@ -1,0 +1,14 @@
+package application;
+
+public class Program {
+
+	public static void main(String[] args) {
+
+		double capital = 1000;
+		
+		
+		double montante = capital * Math.pow(1 + i);
+		
+	}
+
+}

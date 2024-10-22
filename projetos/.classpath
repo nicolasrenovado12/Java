@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="jogo_Da_Velha"/>
 	<classpathentry kind="src" path="bolsa_de_valores"/>
 	<classpathentry kind="src" path="juros_Compostos"/>
+	<classpathentry kind="src" path="juros_Compostos1"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

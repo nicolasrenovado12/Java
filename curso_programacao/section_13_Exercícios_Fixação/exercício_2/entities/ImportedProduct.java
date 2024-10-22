@@ -1,0 +1,29 @@
+package entities;
+
+public class ImportedProduct extends Product {
+
+	public Double customsFee;
+
+	
+	
+	public ImportedProduct(String name, Double price, Double customsFee) {
+		super(name, price);
+		this.customsFee = customsFee;
+	}
+
+	@Override // Polymorphism
+	public String priceTag() {
+		 price+=customsFee;
+		return name + " $ " + price + " (Customs fee: $ " + customsFee + ")";
+	}
+
+	public Double totalPrice() {
+		return 3.0;
+	}
+
+	public Double getCustomsFee() {
+		return customsFee;
+	}
+
+	
+}

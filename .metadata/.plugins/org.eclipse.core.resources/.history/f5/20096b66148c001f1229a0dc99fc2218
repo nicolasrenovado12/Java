@@ -1,0 +1,15 @@
+package application;
+
+import entities.Account2;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		Account2 acc = new Account2(1002, "alex", 0);
+		BusinessAccount bacc = new BusinessAccount(1003, "Nicolas")
+		
+		
+	}
+	
+}

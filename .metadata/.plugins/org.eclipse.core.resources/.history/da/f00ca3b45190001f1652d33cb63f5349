@@ -1,0 +1,48 @@
+package application;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.Scanner;
+
+import entities.Product;
+import entities.UsedProduct;
+
+public class Program_2 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		List<Product> list = new ArrayList<>();
+		
+		System.out.print("Enter the number of products: ");
+		int numbersProducts = sc.nextInt();
+		SimpleDateFormat formato = new SimpleDateFormat("dd/MM/yyyy");
+		
+		for(int i=1; i<numbersProducts+1; i++) {
+			System.out.println("Common, used or imported (c/u/i)? ");
+			String cui = sc.next();
+			
+			System.out.print("Name: ");
+			String name = sc.next();
+			System.out.print("Price: ");
+			double price = sc.nextDouble();
+			
+			if (cui.equals("c")) {
+				list.add(new Product(name, price));
+			} else if (cui.equals("u")) {
+				System.out.println("	");
+				Date date = formato.parse("23/11/2015");
+				list.add(new UsedProduct(name, price, date));
+			} else if (cui.equals("i")) {
+				list.add(new Product(name, price));
+			} else {
+				System.out.println("Você só pode digitar estas opções. ");
+			}
+		}
+		
+	}
+	
+	
+}

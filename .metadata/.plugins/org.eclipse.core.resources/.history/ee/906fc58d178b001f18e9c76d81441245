@@ -1,0 +1,8 @@
+package heranca_130;
+
+public class BusinessAcount extends Account {
+	
+	private Double loanLimit;
+	
+	
+}

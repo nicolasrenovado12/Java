@@ -1,0 +1,4 @@
+package heranca_130;
+public class BussinessAcount extends Account {
+
+}
