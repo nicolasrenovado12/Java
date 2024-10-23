@@ -1,0 +1,14 @@
+package entities;
+
+public abstract class Rabo {
+
+	double grossuraemcm;
+
+	public Rabo(double grossuraemcm) {
+		super();
+		this.grossuraemcm = grossuraemcm;
+	}
+
+	
+	
+}

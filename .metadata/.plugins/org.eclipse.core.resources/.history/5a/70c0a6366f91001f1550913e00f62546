@@ -1,0 +1,15 @@
+package entities;
+
+public class Animalsemasas extends AnimalX {
+
+	double larguradosbracos;
+
+	public Animalsemasas(String nome, int idade, double larguradosbracos) {
+		super(nome, idade);
+		this.larguradosbracos = larguradosbracos;
+	}
+	
+	
+	
+	
+}

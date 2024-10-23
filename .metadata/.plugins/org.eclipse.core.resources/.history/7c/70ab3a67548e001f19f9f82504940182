@@ -1,8 +1,0 @@
-package entities;
-
-public class Snippet {
-	public static void main(String[] args) {
-		C:\temp\Java
-	}
-}
-

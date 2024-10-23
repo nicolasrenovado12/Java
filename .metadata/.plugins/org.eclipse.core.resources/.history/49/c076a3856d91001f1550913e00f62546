@@ -1,0 +1,8 @@
+package entities;
+
+public abstract class Rabo {
+
+	double grossuraemcm;
+
+	
+}
