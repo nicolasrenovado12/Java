@@ -1,0 +1,12 @@
+package entities;
+
+import enums.Color;
+
+public class Shape {
+
+	public Color color;
+	
+	
+	
+	
+}

@@ -1,0 +1,58 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import entities.Shape;
+import enumerações_120.ProgrammerLevel;
+import enums.Color;
+
+public class Program_Class_138 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		List<Shape> shape = new ArrayList<>();
+		
+		System.out.print("Enter the number of the shapes: ");
+		int numbershapes = sc.nextInt();
+		
+		for(int i=0;i<numbershapes;i++) {
+			
+			System.out.print("Rectangle or circle (r/c)? ");
+			String rectangleorcircle = sc.next();
+			
+			if (rectangleorcircle.equals("r")) {
+				System.out.print("Color (BLACK/BLUE/RED): ");
+				String color = sc.next();
+				
+				Color color = ProgrammerLevel.valueOf(levelProgrammer);
+
+				
+				System.out.print("Width: ");
+				double width = sc.nextDouble();
+				System.out.print("Height: ");
+				double Height = sc.nextDouble();
+				
+				Shape shape = new Shape(color)
+				
+			} else if (rectangleorcircle.equals("c")) {
+				System.out.print("Color (BLACK/BLUE/RED): ");
+				String color = sc.next();
+				System.out.print("Radius: ");
+				double radius = sc.nextDouble();
+				
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+	}
+	
+}

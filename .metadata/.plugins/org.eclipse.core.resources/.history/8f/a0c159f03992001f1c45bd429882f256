@@ -1,0 +1,20 @@
+package entities;
+
+import enums.Color;
+
+public class Shape {
+
+	public Color color;
+	
+	public double Area() {
+		return 3;
+	}
+
+	public Shape(Color color) {
+		super();
+		this.color = color;
+	}
+	
+	
+	
+}

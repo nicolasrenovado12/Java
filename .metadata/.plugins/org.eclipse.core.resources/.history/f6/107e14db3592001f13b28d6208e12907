@@ -1,0 +1,18 @@
+package entities;
+
+import enums.Color;
+
+public class Circle extends Shape{
+
+	public double radius;
+
+	public Circle(Color color, double radius) {
+		super(color);
+		this.radius = radius;
+	}
+	
+	
+	
+	
+	
+}
