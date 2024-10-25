@@ -1,0 +1,16 @@
+package entities;
+
+import enums.Color;
+
+public class Rectangle extends Shape {
+
+	public double width;
+	public double height;
+	
+	public Rectangle(Color color) {
+		super(color);
+	}
+
+	
+	
+}

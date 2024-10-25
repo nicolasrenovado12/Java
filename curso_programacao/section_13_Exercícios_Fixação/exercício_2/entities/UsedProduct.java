@@ -1,12 +1,13 @@
 package entities;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public class UsedProduct extends Product {
 
-	private Date manufactureDate;
+	private LocalDate manufactureDate;
 	
-	public UsedProduct(String name, Double price, Date manufactureDate) {
+	public UsedProduct(String name, Double price, LocalDate manufactureDate) {
 		super(name, price);
 		this.manufactureDate = manufactureDate;
 	}
@@ -16,7 +17,7 @@ public class UsedProduct extends Product {
 		return name + " (used) $ " + price + " (Manufacture date: " + manufactureDate + ")";
 	}
 
-	public Date getManufactureDate() {
+	public LocalDate getManufactureDate() {
 		return manufactureDate;
 	}
 

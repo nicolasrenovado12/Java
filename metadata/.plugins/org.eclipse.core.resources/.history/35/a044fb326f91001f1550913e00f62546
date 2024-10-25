@@ -1,0 +1,17 @@
+package application;
+
+import entities.AnimalX;
+import entities.Animalcomasas;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		// Not is possible instance the rabo.java, but is possible instance the AnimalX.java
+		
+		AnimalX rabo = new Animalcomasas("harpia", 6, 2);
+		AnimalX a = new Animalsemasas("onça", 12, 3.3);
+		
+	}
+	
+}

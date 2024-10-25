@@ -1,0 +1,12 @@
+package enums;
+
+import entities.Shape;
+
+public enum Color extends Shape {
+
+	BLACK,
+	BLUE,
+	RED
+	
+	
+}

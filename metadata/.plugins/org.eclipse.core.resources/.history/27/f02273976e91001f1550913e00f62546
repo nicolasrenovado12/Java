@@ -1,0 +1,11 @@
+package entities;
+
+public abstract class AnimalX {
+
+	String nome;
+	int idade;
+
+	
+	
+	
+}

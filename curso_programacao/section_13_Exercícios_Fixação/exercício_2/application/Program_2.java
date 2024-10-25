@@ -2,9 +2,11 @@ package application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
+import java.util.Locale;
 import java.util.Scanner;
 
 import entities.ImportedProduct;
@@ -14,6 +16,8 @@ import entities.UsedProduct;
 public class Program_2 {
 
 	public static void main(String[] args) throws ParseException {
+		
+		Locale.setDefault(Locale.US);
 
 		Scanner sc = new Scanner(System.in);
 		List<Product> list = new ArrayList<>();
@@ -37,8 +41,7 @@ public class Program_2 {
 
 				System.out.print("Manafacture date (DD/MM/YYYY): ");
 				String dateString = sc.next();
-				SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
-				Date date = formatter.parse(dateString);
+				LocalDate date = LocalDate.parse(dateString, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
 
 				list.add(new UsedProduct(name, price, date));
 				

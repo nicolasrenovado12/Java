@@ -1,0 +1,18 @@
+package entities;
+
+public class Outsourced_Employee extends Employee {
+
+	public Double additionalCharge;
+	
+	public Outsourced_Employee() {
+		
+	}
+
+	public Outsourced_Employee(Double additionalCharge) {
+		super();
+		this.additionalCharge = additionalCharge;
+	}
+
+	
+	
+}

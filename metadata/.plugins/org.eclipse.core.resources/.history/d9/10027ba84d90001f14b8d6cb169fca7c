@@ -1,0 +1,17 @@
+package entities;
+
+public class ImportedProduct extends Product {
+
+	public Double customsFee;
+
+	@Override // Polymorphism
+	public String priceTag() {
+		return "e";
+	}
+
+	public Double totalPrice() {
+		return "w";
+	}
+	
+	
+}

@@ -1,0 +1,13 @@
+package application;
+
+import entities.Rabo;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		// Not is possible instance the rabo.java, but is possible instance the AnimalX.java
+		Rabo rabo = new Rabo(3);
+	}
+	
+}

@@ -1,0 +1,16 @@
+package entities;
+
+public class AnimalX extends Animalcomasas {
+
+	String nome;
+	int idade;
+	
+	public AnimalX(double grossuraemcm, String nome, int idade) {
+		super(grossuraemcm);
+		this.nome = nome;
+		this.idade = idade;
+	}
+	
+	
+	
+}

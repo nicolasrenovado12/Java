@@ -1,0 +1,14 @@
+package entities;
+
+public abstract class Animalcomasas {
+
+	double grossuraemcm;
+
+	public Animalcomasas(double grossuraemcm) {
+		super();
+		this.grossuraemcm = grossuraemcm;
+	}
+
+	
+	
+}
