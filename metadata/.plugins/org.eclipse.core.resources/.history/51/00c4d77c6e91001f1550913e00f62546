@@ -1,7 +1,0 @@
-package entities;
-
-public abstract class Animalcomasas {
-
-	double envergadura;
-	
-}

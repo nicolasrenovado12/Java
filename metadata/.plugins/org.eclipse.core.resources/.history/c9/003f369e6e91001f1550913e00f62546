@@ -1,7 +1,0 @@
-package entities;
-
-public class Animalcomasas extends AnimalX {
-
-	double envergadura;
-	
-}
