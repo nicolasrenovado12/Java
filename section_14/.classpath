@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="estrutura_Try_Catch_144"/>
+	<classpathentry kind="src" path="pilhas_DeChamadas_Demétodos_145"/>
+	<classpathentry kind="src" path="bloco_Finally_146"/>
+	<classpathentry kind="src" path="criando_Exceções_Personalizadas_147"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
