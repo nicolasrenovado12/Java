@@ -26,12 +26,15 @@ public class Program_147 {
 		}
 		else {
 			Reservation reservation = new Reservation(number, checkIn, checkOut);
+			
 			System.out.println(reservation.toString());
 			System.out.println("Enter data to update the reservation: ");
 			System.out.print("Check-in date (dd/MM/yyyy): ");
-			checkIn = sdf.parse(sc.next());
+			String checkInString = sc.next();
+			checkIn = sdf.parse(checkInString);
 			System.out.print("Check-out date (dd/MM/yyyy): ");
-			checkOut = sdf.parse(sc.next());
+			String checkOutString = sc.next();
+			checkOut = sdf.parse(checkOutString);
 			
 			Date now = new Date();
 			if(checkIn.before(now) || checkOut.before(now)) {
