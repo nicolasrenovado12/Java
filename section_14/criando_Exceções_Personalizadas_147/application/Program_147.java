@@ -6,26 +6,25 @@ import java.util.Date;
 import java.util.Scanner;
 
 import model.entities.Reservation;
+import model.exceptions.DomainException;
 
 public class Program_147 {
 
-	public static void main(String[] args) throws ParseException {
+	public static void main(String[] args)  {
 
 		Scanner sc = new Scanner(System.in);
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-
-		System.out.print("Room number: ");
-		int number = sc.nextInt();
-		System.out.print("Check-in date (dd/MM/yyyy): ");
-		Date checkIn = sdf.parse(sc.next());
-		System.out.print("Check-out date (dd/MM/yyyy): ");
-		Date checkOut = sdf.parse(sc.next());
-
-		if (!checkOut.after(checkIn)) {
-			System.out.print("Error in reservation: Check-out date must be after check-in date");
-		}
-		else {
+		
+		try {
+			System.out.print("Room number: ");
+			int number = sc.nextInt();
+			System.out.print("Check-in date (dd/MM/yyyy): ");
+			Date checkIn = sdf.parse(sc.next());
+			System.out.print("Check-out date (dd/MM/yyyy): ");
+			Date checkOut = sdf.parse(sc.next());
+	
 			Reservation reservation = new Reservation(number, checkIn, checkOut);
+			reservation.verifyError();
 			
 			System.out.println(reservation.toString());
 			System.out.println("Enter data to update the reservation: ");
@@ -35,26 +34,19 @@ public class Program_147 {
 			System.out.print("Check-out date (dd/MM/yyyy): ");
 			String checkOutString = sc.next();
 			checkOut = sdf.parse(checkOutString);
-			
-			
-
-			String error = reservation.updateDates(checkIn, checkOut);
-			
-			if (error != null) {
-				System.out.print(error);
-				
-			} else {
-				System.out.print(reservation.toString());
-			}
-				
-					
-			
-			
+	
+			reservation.updateDates(checkIn, checkOut); 
+	
+			System.out.print(reservation.toString());
+	
+			sc.close();
+		} catch(ParseException e) {
+			System.out.print("Invalid date format");
+		} catch(DomainException e) {
+			System.out.println(e.getMessage());
+		} catch(RuntimeException e) {
+			System.out.print("Unexpected Error");
 		}
-		
-
-		sc.close();
-
-	}
+	} 
 
 }
