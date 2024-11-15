@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="lendoaquivotexto_Com_Classes_File_E_Scanner"/>
-	<classpathentry kind="src" path="filereader_E_BufferedReader"/>
+	<classpathentry kind="src" path="lendoaquivotexto_Com_Classes_File_E_Scanner_155"/>
+	<classpathentry kind="src" path="filereader_E_BufferedReader_156"/>
 	<classpathentry kind="src" path="testescomarquivos"/>
 	<classpathentry kind="src" path="bloco_TryWithResources_157"/>
+	<classpathentry kind="src" path="fileWriter_E_BufferedWriter_158"/>
+	<classpathentry kind="src" path="manipulando_Pastas_Com_File_159"/>
+	<classpathentry kind="src" path="informações_Caminho_Arquivo_160"/>
+	<classpathentry kind="src" path="brincando_Arquivos"/>
+	<classpathentry kind="src" path="asl"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

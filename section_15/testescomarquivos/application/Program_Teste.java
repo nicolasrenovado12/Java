@@ -11,10 +11,7 @@ public class Program_Teste {
 
 		File file = new File("c:\\a.txt");
 		Scanner sc = null;
-		int c = 0;
-		FileWriter fWriter = new FileWriter("c:\\a.txt");
-		String a = "a";
-		fWriter.write(a);
+		
 		try {
 			sc = new Scanner(file);
 

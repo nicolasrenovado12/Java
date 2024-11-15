@@ -1,29 +1,33 @@
 package application;
 
-import java.text.DecimalFormat;
-
 public class Program2 {
 
 	public static void main(String[] args) {
 
-		double capital = 1000;
-		double valorpormes = 10;
-		double juros = 0.01;
-		double montante;
-		double montante2 = 0;
-		for(int i=1; i< 12; i++) {
+		double juros = 0.0058;
+		double quantidade = 0;
+		double valorpormes = 1000;
+		int ano = 0;
+		int i = 0;
+		while(quantidade < 2000000) {
+			
+			quantidade += valorpormes * Math.pow((1 + juros),i);
+			
+			ano = (i/12) + 1;
+			int mes = (i%12) + 1;
+			
+			System.out.println(valorpormes);
+			System.out.println("Ano = " + ano);
+			System.out.println("Mês = " + mes + " " + quantidade+valorpormes);
+			i+=1;
+			if (mes == 1) {
+				valorpormes+=200;
+			}
+			System.out.println(i +  " Meses");
 			
 			
-			montante2 = montante2 + valorpormes * Math.pow(1 + juros, i);
 			
-			montante = capital * Math.pow(1 + juros, i);
-			
-			montante2+=10;
-			
-			System.out.println(i + " " + montante2);
-
 		}
-			
 		
 		
 		
