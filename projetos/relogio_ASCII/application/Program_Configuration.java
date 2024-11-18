@@ -12,7 +12,7 @@ public class Program_Configuration {
 		
 		
 		System.out.println("Hour = ");
-		System.out.println(Program_Algorithm.create_ASCII_Hour("13:19"));
+		System.out.println(Program_Algorithm.create_ASCII_Hour(hour));
 		sc.close();
 	}
 }

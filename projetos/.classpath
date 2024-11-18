@@ -6,6 +6,8 @@
 	<classpathentry kind="src" path="juros_Compostos1"/>
 	<classpathentry kind="src" path="projeto_MMC_E_MDC"/>
 	<classpathentry kind="src" path="relogio_ASCII"/>
+	<classpathentry kind="src" path="funções"/>
+	<classpathentry kind="src" path="encontrando_Coordenadas_Cobra"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/curso_programacao">
 		<attributes>
 			<attribute name="module" value="true"/>

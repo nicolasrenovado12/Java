@@ -127,7 +127,7 @@ public class Program_Algorithm {
 		        		linha3 += "  |";
 		        	break;
 		        	case "8": 
-		        		linha2 += "|_|";
+		        		linha3 += "|_|";
 		        	break;
 		        	case "9": 
 		        		linha3 += " _|";

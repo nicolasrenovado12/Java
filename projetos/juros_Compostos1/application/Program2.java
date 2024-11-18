@@ -9,11 +9,11 @@ public class Program2 {
 		double valorpormes = 1000;
 		int ano = 0;
 		int i = 0;
-		while(quantidade < 2000000) {
+		while(quantidade < 100000) {
 			
 			quantidade += valorpormes * Math.pow((1 + juros),i);
 			
-			ano = (i/12) + 1;
+			ano = (i/12) +1 ;
 			int mes = (i%12) + 1;
 			
 			System.out.println(valorpormes);
