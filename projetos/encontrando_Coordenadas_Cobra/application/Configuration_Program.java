@@ -6,6 +6,8 @@ public class Configuration_Program {
 
 	public static void main(String[] args) {
 		ArrayList<String> grid = new ArrayList<String>();
+
+		// Irá ser mostrado por (x, y) por ser um padrão matemático.
 		
 		grid.add(">>v");
 		grid.add("^h<");
