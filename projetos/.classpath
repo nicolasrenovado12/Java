@@ -8,6 +8,7 @@
 	<classpathentry kind="src" path="relogio_ASCII"/>
 	<classpathentry kind="src" path="funções"/>
 	<classpathentry kind="src" path="encontrando_Coordenadas_Cobra"/>
+	<classpathentry kind="src" path="tautologia_Aplicada_Programa"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/curso_programacao">
 		<attributes>
 			<attribute name="module" value="true"/>
