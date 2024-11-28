@@ -8,7 +8,7 @@
 	<classpathentry kind="src" path="fileWriter_E_BufferedWriter_158"/>
 	<classpathentry kind="src" path="manipulando_Pastas_Com_File_159"/>
 	<classpathentry kind="src" path="informações_Caminho_Arquivo_160"/>
-	<classpathentry kind="src" path="brincando_Arquivos"/>
+	<classpathentry kind="src" path="estudando_Arquivos"/>
 	<classpathentry kind="src" path="asl"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>

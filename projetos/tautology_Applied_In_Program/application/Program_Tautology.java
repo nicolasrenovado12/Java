@@ -2,9 +2,9 @@ package application;
 
 import java.util.Scanner;
 
-public class Program_Tautologia {
+public class Program_Tautology {
 
-	// Why you need tautologia in your program. Basically because if you know tautologia, is very good for detect errors in logical of program.
+	// Why you need tautology in your program? Basically because if you know tautology, is very good for detect errors in logical of program.
 	
 	public static void main(String[] args) {
 	
