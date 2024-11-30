@@ -50,7 +50,7 @@ public class Program_Class_138 {
 		
 		System.out.println("SHAPE AREAS: ");
 		for(Shape shapes : list) {
-			System.out.print(shapes.Area());
+			System.out.print(shapes.area());
 		}
 		
 		

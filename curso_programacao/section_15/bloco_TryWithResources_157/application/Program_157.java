@@ -21,7 +21,9 @@ public class Program_157 {
 			
 		} catch (IOException e) {
 			System.out.println("Error: " + e.getMessage());
-		}
+			
+		} 
+		
 	}
 	
 }

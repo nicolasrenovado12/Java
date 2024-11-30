@@ -6,7 +6,7 @@ public abstract class Shape {
 
 	public Color color;
 	
-	public abstract double Area();
+	public abstract double area();
 
 	public Shape(Color color) {
 		super();
