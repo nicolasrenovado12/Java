@@ -45,7 +45,6 @@ public class Program_161 {
 						line = br.readLine();
 					} 
 					try(BufferedWriter bw = new BufferedWriter(new FileWriter(summary, true))) {
-						System.out.print("QASDSAD");
 						for (String line2 : lines2) {
 							bw.write(line2);
 							bw.newLine();

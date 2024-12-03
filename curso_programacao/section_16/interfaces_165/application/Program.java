@@ -5,8 +5,10 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
-import entities.CarRental;
-import entities.Vehicle;
+import model.entities.CarRental;
+import model.entities.Vehicle;
+import model.services.BrasilTaxServices;
+import model.services.RentalService;
 
 public class Program {
 
@@ -15,34 +17,34 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		DateTimeFormatter fmt = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
 		
+		
 		System.out.println("Enter rental data ");
 		System.out.print("Car model:	");
-		String modelCar = sc.nextLine();
-		
+		String carModel = sc.nextLine();
+		System.out.println(LocalDateTime.parse("19/02/2000 12:13", fmt));
+
 		System.out.print("Pickup (dd/MM/yyyy hh:mm): ");
 		LocalDateTime start = LocalDateTime.parse(sc.nextLine(), fmt);
 		
 		System.out.print("Return (dd/MM/yyyy hh:mm): ");
 		LocalDateTime finish = LocalDateTime.parse(sc.nextLine(), fmt);
 		
-		System.out.println(start);
-		System.out.println(finish);
-		
-		CarRental cr = new CarRental(start, finish, new Vehicle());
+		CarRental cr = new CarRental(start, finish, new Vehicle(carModel));
 		
 		System.out.print("Enter price per hour: ");
-		Double hour = sc.nextDouble();
-		System.out.print("\nEnter price per day: ");
-		Double day = sc.nextDouble();
+		double pricePerHour = sc.nextDouble();
+		System.out.print("Enter price per day: ");
+		double pricePerDay = sc.nextDouble();
 		
-		
+		RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrasilTaxServices());
+		rentalService.processInvoice(cr);
 		
 		
 		
 		System.out.println("INVOICE: ");
-		System.out.print("Basic payment: ");
-		System.out.print("tax: ");
-		System.out.print("Total payment: ");
+		System.out.println("Basic payment: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));
+		System.out.println("tax: " + String.format("%.2f", cr.getInvoice().getTax()));
+		System.out.println("Total payment: " + String.format("%.2f", cr.getInvoice().getTotalPayment()));
 		
 		
 		

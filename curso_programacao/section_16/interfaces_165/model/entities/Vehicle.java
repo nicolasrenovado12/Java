@@ -1,22 +1,22 @@
-package entities;
+package model.entities;
 
 public class Vehicle {
 
-	private String model;
+	private String carModel;
 	
 	public Vehicle() {
 	}
 	
 	public Vehicle(String model) {
-		this.model = model;
+		this.carModel = model;
 	}
 
 	public String getModel() {
-		return model;
+		return carModel;
 	}
 
 	public void setModel(String model) {
-		this.model = model;
+		this.carModel = model;
 	}
 	
 	
