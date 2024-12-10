@@ -10,6 +10,7 @@ import java.util.Date;
 
 import model.entities.Contract;
 import model.entities.Installment;
+import model.enums.Banana;
 import model.services.ContractService;
 import model.services.OnlinePaymentService;
 import model.services.PaypalService;
@@ -21,7 +22,7 @@ public class Program {
 		OnlinePaymentService paymentService = new PaypalService();
 		ContractService service = new ContractService();
 		Scanner sc = new Scanner(System.in);
-		Enum a = Enum.valueOf(null, null);
+		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		System.out.println("Enter the contract details: ");	
 		System.out.print("Number: ");
