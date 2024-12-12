@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="juros_Compostos2"/>
 	<classpathentry kind="src" path="program_Market"/>
-	<classpathentry kind="src" path="juros_Compostos/exceptions"/>
 	<classpathentry kind="src" path="a"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="tictactoe_Game"/>
@@ -28,10 +27,6 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
