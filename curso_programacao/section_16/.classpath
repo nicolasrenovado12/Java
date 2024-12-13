@@ -4,6 +4,8 @@
 	<classpathentry kind="src" path="interfaces_165"/>
 	<classpathentry kind="src" path="herdar_Vs_Cumprircontrato_173"/>
 	<classpathentry kind="src" path="herança_Multipla"/>
+	<classpathentry kind="src" path="Interface_Comparable_175"/>
+	<classpathentry kind="src" path="default_methods_176"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
