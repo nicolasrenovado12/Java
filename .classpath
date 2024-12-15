@@ -14,5 +14,6 @@
 	<classpathentry kind="src" path="curso_programacao/section_9_Exercícios_Fixação"/>
 	<classpathentry kind="src" path="projetos/jogo_Da_Velha"/>
 	<classpathentry kind="src" path="projetos/src"/>
+	<classpathentry excluding="curso_programacao/bolsa_de_valores/|curso_programacao/Curso_Programação/|curso_programacao/programas_Java/|curso_programacao/section_10/|curso_programacao/section_10_Exercícios_Fixação/|curso_programacao/section_11/|curso_programacao/section_12_Enumerações_E_Composições/|curso_programacao/section_8/|curso_programacao/section_8_Exercícios_Fixação/|curso_programacao/section_9/|curso_programacao/section_9_Exercícios_Fixação/|projetos/jogo_Da_Velha/|projetos/src/" kind="src" path=""/>
 	<classpathentry kind="output" path="curso_programacao/bin"/>
 </classpath>
