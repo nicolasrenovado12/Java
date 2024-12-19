@@ -10,8 +10,6 @@
 	<classpathentry kind="src" path="set_184"/>
 	<classpathentry kind="src" path="igualdade_Dos_Set_185"/>
 	<classpathentry kind="src" path="como_Tree_Set_Compara_Os_Elementos_186"/>
-	<classpathentry kind="src" path="treinando_Set"/>
-	<classpathentry kind="src" path="map_189"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
