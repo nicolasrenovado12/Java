@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="introducao_Aos_Generics_179"/>
-	<classpathentry kind="src" path="genericos_Delimitados_180"/>
-	<classpathentry kind="src" path="tipos_Curinga_181"/>
-	<classpathentry kind="src" path="curingas_Delimitados_182"/>
-	<classpathentry kind="src" path="treino"/>
-	<classpathentry kind="src" path="hashCode_E_Equals_183"/>
-	<classpathentry kind="src" path="set_184"/>
-	<classpathentry kind="src" path="igualdade_Dos_Set_185"/>
-	<classpathentry kind="src" path="como_Tree_Set_Compara_Os_Elementos_186"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23"/>
+	<classpathentry kind="src" path="experiencia_Comparator_193"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23.0.1-oracle-x64"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

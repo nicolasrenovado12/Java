@@ -1,4 +1,4 @@
-package entities;
+package entities2;
 
 import java.util.Objects;
 
@@ -12,24 +12,6 @@ public class Client_2 {
 		this.name = name;
 		this.age = age;
 	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(name);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Client_2 other = (Client_2) obj;
-		return Objects.equals(name, other.name);
-	}
-	
 	
 	
 	

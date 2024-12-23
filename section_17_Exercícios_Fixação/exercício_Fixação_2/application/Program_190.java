@@ -64,7 +64,6 @@ public class Program_190 {
 				results.put(namesReal.get(q), votosTotal.get(q));
 				System.out.println(namesReal.get(q) + ":  " + results.get(namesReal.get(q)));
 			}
-			
 
 		} catch (IOException e) {
 			System.out.println("IOException: " + e.getMessage());

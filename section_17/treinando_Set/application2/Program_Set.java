@@ -1,9 +1,9 @@
-package application;
+package application2;
 
 import java.util.HashSet;
 import java.util.Set;
 
-import entities.Client_2;
+import entities2.Client_2;
 
 public class Program_Set {
 
@@ -13,7 +13,7 @@ public class Program_Set {
 		
 		set.add(new Client_2("Nicolas", 15));
 		
-		Client_2 a = new Client_2("Nicolsas", 15);
+		Client_2 a = new Client_2("Nicolas", 15);
 		
 		System.out.println(set.contains(a));
 		

@@ -1,0 +1,348 @@
+[33mcommit 34f7fcbf1b1d5384e00c681fbb93e7f26da0f41b[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Dec 19 14:07:17 2024 -0300
+
+    Learning about map in java
+
+[33mcommit 3d0a378fff00a11acc5f1228aad69ebf81d2cb29[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sun Dec 15 01:48:54 2024 -0300
+
+    First program without generics
+
+[33mcommit e3ffefefc12038addb3b22a670a8c1d68b98ad0f[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sun Dec 15 01:48:25 2024 -0300
+
+    First program without generics
+
+[33mcommit 7e0fb1b2debe5d953fa60850467699459f41980f[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Fri Dec 13 20:03:42 2024 -0300
+
+    The final knowledge on the section 16
+
+[33mcommit 20555389b641332f41849a0c16061f5e2472bf19[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Dec 12 10:09:21 2024 -0300
+
+    Add ComboDevice
+
+[33mcommit d4462f6648cf67d523a0644dcc96a5b2da91e598[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Dec 11 11:53:41 2024 -0300
+
+    Starting to refactoring program of compound interest
+
+[33mcommit ec832efd72c39dfa8dc2b5b5fdcea206c9dd00c0[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Dec 10 18:32:10 2024 -0300
+
+    Solution with interface and abstract class
+
+[33mcommit 80d9ace11e7eb7ddd2481d04e2b624264ccb6a0a[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Dec 10 18:00:33 2024 -0300
+
+    Program with no interfaces
+
+[33mcommit a29043e6034ac22eae53232e8a0a6805291b0882[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Dec 10 17:14:48 2024 -0300
+
+    learning about interfaces in java
+
+[33mcommit c30ad9fc8fb140020f428d6a3449fcaf8084a772[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Dec 3 14:35:38 2024 -0300
+
+    Sollution of program with interface
+
+[33mcommit 6ed03b85f6201cbc3258626de5b21783eee48d0e[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Dec 3 14:03:49 2024 -0300
+
+    Programa sem interfaces
+
+[33mcommit 7c99d444aeca1761a52822caa85f52ddb903dbab[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Dec 3 14:03:23 2024 -0300
+
+    Programa sem interfaces
+
+[33mcommit bf15b5560bad561f1997646e91d430d2bfc51abd[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Nov 30 10:24:12 2024 -0300
+
+    Change name of method
+
+[33mcommit 9581a14d7cb9fe189311b5d3fdfeed1d0155b1ab[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Nov 30 09:14:07 2024 -0300
+
+    Organizando pastas
+
+[33mcommit 6bffdcbf6771c676c297e69a3cb87f865f499aa5[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Nov 28 10:09:29 2024 -0300
+
+    Change the comments
+
+[33mcommit 9a86395f10926c231314515a7034c6e4a580c680[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Nov 28 10:03:13 2024 -0300
+
+    Rename and add a new section
+
+[33mcommit 54c56f846d0cf73b54542d84aa2ef17f731842c6[m
+Merge: d5f67d3 22ccbe9
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Nov 23 14:18:03 2024 -0300
+
+    testing the commit
+
+[33mcommit d5f67d3b87c2fd66b1e6658b84d176f760355b6d[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Nov 23 14:15:03 2024 -0300
+
+    Test commit
+
+[33mcommit 676df558beb627b8e1f733da86a5a320049f32aa[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Nov 23 14:02:12 2024 -0300
+
+    adding concept of tautologia
+
+[33mcommit 22ccbe9ff70ea6c1b7b9d536e45ce0c60d86287c[m
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Tue Nov 19 11:54:06 2024 -0300
+
+    Update comments
+
+[33mcommit 349ab6d9b7551e5078a64867a3984a0c7ac2a428[m
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Tue Nov 19 11:52:45 2024 -0300
+
+    Update comments in java
+
+[33mcommit 1772b621f54e72f4d25b27eaf071415ee1e25e71[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sun Nov 17 22:34:38 2024 -0300
+
+    Add the find snake on the grid program
+
+[33mcommit bc4997e5d06edadc380f3ecacd85de84cc083f61[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Fri Nov 15 02:49:27 2024 -0300
+
+    Adding the Relogy ASCII Program
+
+[33mcommit 855ea830f420b61e89ccc52a198845a6ffba7c77[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sun Nov 3 16:05:13 2024 -0300
+
+    Trabalhando com arquivos
+
+[33mcommit 5a0546b35d3a4b066904507c4cc7ed26f3e28349[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Fri Nov 1 15:13:10 2024 -0300
+
+    Good solution
+
+[33mcommit e014aa9cccfae5544304815963556e2e60f7bdf9[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Oct 31 16:02:20 2024 -0300
+
+    Add program of MMC
+
+[33mcommit 56de00be2c594eb83de4c56200804ed2bb47d777[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 30 11:00:49 2024 -0300
+
+    Bad solution
+
+[33mcommit c589a622c62dbf9c18a8f073c4bd42ae021ff0da[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 30 10:35:55 2024 -0300
+
+    Very bad solution
+
+[33mcommit 97c46afc7fe75ff793234cffb1cadbead3f96eb0[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 30 10:31:48 2024 -0300
+
+    Very bad solution
+
+[33mcommit af5acb3693acf121a64b15fb7a0001a7c2e34c30[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 28 18:34:41 2024 -0300
+
+    Very bad solution
+
+[33mcommit 906e3685617b1d61acca3ada339e1ddf9e154236[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Fri Oct 25 16:02:04 2024 -0300
+
+    add data
+
+[33mcommit f84a28003785f378814b7648c63740785827232f[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Oct 24 23:10:33 2024 -0300
+
+    resolve the java
+
+[33mcommit ee6178b890a444e69d1369eb89d9ad4da0f72491[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Oct 24 23:09:01 2024 -0300
+
+    add gitignore
+
+[33mcommit bcbdb717353f25ec08569646e5d64ba50196b3f8[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Oct 24 23:07:24 2024 -0300
+
+    add gitignore
+
+[33mcommit 1b1d1c366f0a811399b71b11d8b9f817b0b46eea[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Thu Oct 24 16:00:59 2024 -0300
+
+    add abstract class
+
+[33mcommit f4998239e380c767f1d90364d3d5d75d7b585ff9[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 23 16:01:12 2024 -0300
+
+    add important comments
+
+[33mcommit 0a53623f63b5a202dba6c0471c881e46e590fb11[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 23 15:51:33 2024 -0300
+
+    learning abstract class
+
+[33mcommit 64123bddc5c7412f0f846a8c9f0f9bf3aa885ab7[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Oct 22 19:42:14 2024 -0300
+
+    Some exercises of java
+
+[33mcommit 97a15259a6ee8e2b055ebc3e4ea567118b1563d2[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Oct 19 17:23:30 2024 -0300
+
+    Learning the polymorphism
+
+[33mcommit cb1aab0e79f23983c65d39242e74c8abb0316c3f[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sat Oct 19 16:59:39 2024 -0300
+
+    deleting some programs
+
+[33mcommit 2e81cd1fe6edbb64ba64790be1bdeb982885e936[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 16 20:48:56 2024 -0300
+
+    Learning upcasting and downcasting in java.
+
+[33mcommit cafe564d64d77e1c10e61a59694fd13e7c6ad8fd[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Wed Oct 16 20:04:09 2024 -0300
+
+    consertando erro
+
+[33mcommit 564ee0feeb0dfc6714dd125a5ba98c7f9cae0a50[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Oct 15 14:51:37 2024 -0300
+
+    Vendo herança
+
+[33mcommit b474df14e18e44174c4e01cee99b674e32a6a941[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Tue Oct 15 13:31:47 2024 -0300
+
+    is it possible to draw
+
+[33mcommit 0cd8bc7d4fe2021001457d28fd0880147bd5d7b3[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 14 10:38:16 2024 -0300
+
+    Program of enum. For my learning
+
+[33mcommit 9a8168cf3518c0bf1634188944aab1d88cb88f5a[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 14 10:27:00 2024 -0300
+
+    Corrijindo erro básico do programa de composição
+
+[33mcommit 68a14696f5bbe4eeef29754118fdfbf365d8e9b7[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 14 10:25:53 2024 -0300
+
+    Adicionando programa básico da composição para ilustrar aprendizado
+
+[33mcommit d0e1d7371457fdd834c449cc4d773902ca1561c8[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 14 10:17:04 2024 -0300
+
+    adcionando carro
+
+[33mcommit 1194fccd5aedc806d2047501d7b12fd4f479bd27[m
+Merge: e3f3c62 9135ed4
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Mon Oct 14 08:51:12 2024 -0300
+
+    Merge pull request #2 from nicolasrenovado12/branchteste1
+    
+    Final merge
+
+[33mcommit 9135ed4e5d9574e45cebc242ffee68bff9d03024[m[33m ([m[1;31morigin/branchteste1[m[33m)[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 14 08:48:32 2024 -0300
+
+    adicionando comentarios
+
+[33mcommit 4091b932c8652fe271d34357472442d65ec3af4b[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Mon Oct 14 08:44:56 2024 -0300
+
+    x e o já definidos
+
+[33mcommit e3f3c6221f42611b70c3befa6a68f27bf2923900[m
+Merge: f812072 df708aa
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Sun Oct 13 23:18:47 2024 -0300
+
+    Merge pull request #1 from nicolasrenovado12/branchTreinandoGit
+    
+    alteracaocomentarios - Teste para pull request
+
+[33mcommit df708aacf8a100e2787f9d07c8c23cb598dc97c6[m[33m ([m[1;31morigin/branchTreinandoGit[m[33m)[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sun Oct 13 23:13:05 2024 -0300
+
+    alteracaocomentarios
+
+[33mcommit f81207228861d57eafb51cceb8a64f1df902eb12[m[33m ([m[1;31morigin/a[m[33m)[m
+Author: Nicolas <nicolasrenovado12@gmail.com>
+Date:   Sun Oct 13 22:33:24 2024 -0300
+
+    mudancajogodavelha
+
+[33mcommit 577ef783790477f34b521598529ff156a5e0a7bd[m
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Tue Oct 8 15:48:10 2024 -0300
+
+    AddCourse
+
+[33mcommit ea51d892309881f7f28e5f6b99fdda76f5e6de99[m
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Wed Sep 18 22:09:58 2024 -0300
+
+    Mudança
+
+[33mcommit 9a7023caafdbc3b70b2a9443e94412c356242d02[m
+Author: Nicolas Guilherme <159655443+nicolasrenovado12@users.noreply.github.com>
+Date:   Tue Sep 10 21:40:34 2024 -0300
+
+    Initial commit
