@@ -1,0 +1,35 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import entities.Circle;
+import entities.Rectangle;
+import entities.ShapeArea;
+
+public class Program_182 {
+
+	public static void main(String[] args) {
+
+		List<ShapeArea> myShapes = new ArrayList<>();
+		myShapes.add(new Rectangle(3.0, 8.0));
+		myShapes.add(new Circle(3.0));
+
+		List<Circle> myCircles = new ArrayList<>();
+		myCircles.add(new Circle(2.0));
+		myCircles.add(new Circle(3.0));	
+		
+		System.out.println("Total area: " + totalArea(myCircles));
+
+	}
+	
+	public static double totalArea(List<? extends ShapeArea> list) {
+		double sum = 0.0;
+		for (ShapeArea s : list) {
+			sum += s.area();
+		}
+		return sum;
+	}
+	
+
+}

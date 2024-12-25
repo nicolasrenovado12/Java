@@ -1,0 +1,21 @@
+package entities;
+
+import enums.Color;
+
+public class Triangle extends Shapewithcolor implements Shape {
+
+	private double height;
+	private double width;
+
+	public Triangle(Color color, double height, double width) {
+		this.height = height;
+		this.width = width;
+		super(color);
+	}
+
+	@Override
+	public double area() {
+		return (width * height) / 2;
+	}
+
+}

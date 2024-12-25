@@ -1,0 +1,15 @@
+package application;
+
+import entities.Shapewithcolor;
+import entities.Triangle;
+import enums.Color;
+
+public class Program_Shapes {
+
+	public static void main(String[] args) {
+
+		Shapewithcolor triangle = new Triangle(3.00, 2.00, null);
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package entities;
+
+public class Triangle implements Shape {
+
+	private double height;
+	private double width;
+
+	@Override
+	public double area() {
+		return (width * height) / 2;
+	}
+
+}

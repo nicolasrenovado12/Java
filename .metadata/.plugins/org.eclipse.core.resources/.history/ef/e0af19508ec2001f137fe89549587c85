@@ -1,0 +1,16 @@
+package entities;
+
+public class Triangle implements Shape {
+
+	private double height;
+	private double width;
+	
+	@Override
+	public double area() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+	
+}

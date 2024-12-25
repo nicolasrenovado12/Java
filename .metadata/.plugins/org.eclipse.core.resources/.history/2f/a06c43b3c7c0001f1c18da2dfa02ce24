@@ -1,0 +1,41 @@
+package application;
+
+import java.util.Scanner;
+
+public class Program_Escada {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite a quantidade de degraus");
+		int degraus = sc.nextInt();
+		String objeto = "";
+
+		String a = "aa";
+		String g = a.replaceAll("a", "g");
+		System.out.println(g);
+		for (int i=0; i<degraus; i++) {
+			
+			
+			objeto+="a";
+				
+
+			
+		}
+		
+		for (int i=0; i<degraus; i++) {
+			
+			String novo = objeto.replace('a', 'w');
+			String tal = objeto.replaceFirst("w", "q");
+			System.out.println(novo);
+
+			
+		}
+
+		
+		
+	
+	}
+	
+}

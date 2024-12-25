@@ -1,0 +1,18 @@
+package entities;
+
+import enums.Color;
+
+public class Shapewithcolor implements Shape{
+
+	private Color color;
+	
+	
+	
+	@Override
+	public double area() {
+		return 0;
+	}
+
+	
+	
+}

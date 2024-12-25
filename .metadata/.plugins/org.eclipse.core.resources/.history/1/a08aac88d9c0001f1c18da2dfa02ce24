@@ -1,0 +1,21 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import entities.Product_2;
+
+public class Program_193 {
+
+	public static void main(String[] args) {
+		
+		List<Product_2> list = new ArrayList<>();
+		list.add(new Product_2("TV", 1000.0));
+		
+		Collections.sort(list);
+		
+		
+	}
+	
+}

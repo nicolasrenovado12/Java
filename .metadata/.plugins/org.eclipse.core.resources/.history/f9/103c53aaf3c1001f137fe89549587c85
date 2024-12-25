@@ -1,0 +1,18 @@
+package section_18;
+
+import java.util.Base64;
+
+public class Main {
+    public static void main(String[] args) {
+        String encodedString = "Ulr73OaYu/CApuf3pbHWgSCNvJPxlgwF91VzXXnBcbnfcG1FqCQBtrrFOl0OJjoYB8K7IhKQTlg=";
+//        		
+        // Decodificando a string base64
+        byte[] decodedBytes = Base64.getDecoder().decode(encodedString);
+        String decodedString = new String(decodedBytes);
+        
+        // How to become a good programmer, you don't use the mouse
+        
+        System.out.println("Decodificado: " + decodedString);
+    }
+    
+}
