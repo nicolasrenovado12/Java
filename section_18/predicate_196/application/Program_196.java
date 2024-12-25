@@ -19,7 +19,7 @@ public class Program_196 {
 
 		// list.removeIf((p) -> p.getPrice() >= 100); you could write this
 		
-		list.removeIf(new ProductPredicate());
+		list.removeIf(Product_3::nonstaticProductPredicate);
 		
 		for (Product_3 product : list) { 
 			System.out.println(product.toString());
