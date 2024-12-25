@@ -19,9 +19,7 @@ public class Program_196 {
 
 		// list.removeIf((p) -> p.getPrice() >= 100); you could write this
 		
-		double min = 100.0;
-		
-		Predicate<Product_3> pred = p -> p.getPrice() >= min;
+		Predicate<Product_3> pred = p -> p.getPrice() >= 100;
 		
 		list.removeIf(pred);
 		
