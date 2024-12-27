@@ -17,13 +17,11 @@ public class Program_197 {
 		list.add(new Product_3("Tablet", 350.50));
 		list.add(new Product_3("HD Case", 80.90));
 		
-		double factor = 1.1;
-		
 		Consumer<Product_3> cons = p -> {
-			p.setPrice(p.getPrice() * factor);
+			p.setPrice(p.getPrice() * 1.1);
 		};
 		
-		list.forEach(cons);
+		list.forEach(Product_3::nonStaticPriceUpdate);
 		
 		list.forEach(System.out::println);
 	}
