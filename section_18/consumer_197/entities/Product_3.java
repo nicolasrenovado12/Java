@@ -1,6 +1,7 @@
 package entities;
 
 public class Product_3 {
+	
 	private String name;
 	private Double price;
 
@@ -32,6 +33,6 @@ public class Product_3 {
 	
 	@Override
 	public String toString() {
-		return "Product_2 [name=" + name + ", price=" + price + "]";
+		return "Product_3 [name=" + name + ", price=" + price + "]";
 	}
 }

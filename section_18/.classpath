@@ -5,6 +5,7 @@
 	<classpathentry kind="src" path="programação_Funcional_Calculo_Lambda_194"/>
 	<classpathentry kind="src" path="predicate_196"/>
 	<classpathentry kind="src" path="consumer_197"/>
+	<classpathentry kind="src" path="function_198"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-23">
 		<attributes>
 			<attribute name="module" value="true"/>
