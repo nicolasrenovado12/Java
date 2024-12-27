@@ -27,8 +27,8 @@ public class Product_4 {
 		this.price = price;
 	}
 
-	public static String staticUpperCaseName(Product_4 p) {
-		return p.getName().toUpperCase();
+	public void nonStaticPriceUpdate() {
+		price = price * 1.1;
 	}
 	
 	@Override
