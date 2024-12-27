@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="enums.Color"/>
+    <fullyQualifiedTypeName name="entities.Shape"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+</qualifiedTypeNameHistroy>

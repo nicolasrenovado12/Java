@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 import entities.Shape;
 import entities.Triangle;
-import enums.Color;
 
 public class Program_Shapes {
 

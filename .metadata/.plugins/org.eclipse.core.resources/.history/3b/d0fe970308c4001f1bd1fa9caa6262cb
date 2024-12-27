@@ -1,0 +1,9 @@
+package util;
+
+import java.util.function.Consumer;
+
+import entities.Product_2;
+
+public class consumer  implements Consumer<Product_2>{
+
+}

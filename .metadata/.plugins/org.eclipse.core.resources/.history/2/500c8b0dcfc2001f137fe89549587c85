@@ -1,0 +1,11 @@
+package application;
+
+public class We {
+
+	public static void main(String[] args) {
+        Runnable greet = () -> System.out.println("Hello, World!");
+        
+        greet.run();
+	}
+	
+}

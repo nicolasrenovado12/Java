@@ -1,7 +1,5 @@
 package entities;
 
-import enums.Color;
-
 public class Triangle implements Shape {
 
 	private double height;

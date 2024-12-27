@@ -3970,3 +3970,32 @@ Contains: File already exists on disk: /mnt/DECC06C3CC0695C5/Java/projetos/forma
 !MESSAGE Problems encountered while moving resources.
 !SUBENTRY 3 org.eclipse.core.filesystem 4 268 2024-12-25 05:47:43.016
 !MESSAGE File already exists on disk: /mnt/DECC06C3CC0695C5/Java/projetos/formas_Geometricas/application/Program_Shapes.java.
+!SESSION 2024-12-26 03:43:21.436 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 03:43:33.677
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-26 03:43:40.779
+!MESSAGE Logback config file: /mnt/DECC06C3CC0695C5/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
+!SESSION 2024-12-27 00:59:16.349 -----------------------------------------------
+eclipse.buildId=4.34.0.20241128-0756
+java.version=21.0.5
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-27 00:59:25.631
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-12-27 00:59:31.617
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-12-27 00:59:33.743
+!MESSAGE Logback config file: /mnt/DECC06C3CC0695C5/Java/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.7.0.20241001-1350.xml
