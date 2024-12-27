@@ -26,7 +26,7 @@ public class Product_3 {
 		this.price = price;
 	}
 
-	public void nonStaticPriceUpdate() {
+	public void nonStaticPriceUpdate(Product_3 p) {
 		price = price * 1.1;
 	}
 	

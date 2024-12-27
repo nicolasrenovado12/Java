@@ -2,7 +2,6 @@ package application;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.function.Consumer;
 
 import entities.Product_3;
 
@@ -16,6 +15,10 @@ public class Program_197 {
 		list.add(new Product_3("Mouse", 50.00));
 		list.add(new Product_3("Tablet", 350.50));
 		list.add(new Product_3("HD Case", 80.90));
+		
+		Consumer<Product_3> cons = p -> {
+			
+		}
 		
 		list.forEach(Product_3::nonStaticPriceUpdate);
 		
