@@ -6,6 +6,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/mnt/DECC06C3CC0695C5/Java/section_18/funções_Que_Recebem_Funções_199/util"/>
 			<item value="/mnt/DECC06C3CC0695C5/Java/projetos/formas_Geometricas"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">

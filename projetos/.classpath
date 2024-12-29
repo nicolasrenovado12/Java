@@ -6,7 +6,7 @@
 	<classpathentry kind="src" path="tictactoe_Game"/>
 	<classpathentry kind="src" path="bolsa_de_valores"/>
 	<classpathentry kind="src" path="projeto_MMC_E_MDC"/>
-	<classpathentry kind="src" path="relogio_ASCII"/>
+	<classpathentry kind="src" path="relogy_ASCII"/>
 	<classpathentry kind="src" path="funções"/>
 	<classpathentry kind="src" path="encontrando_Coordenadas_Cobra"/>
 	<classpathentry kind="src" path="tautology_Applied_In_Program"/>
@@ -14,6 +14,7 @@
 	<classpathentry kind="src" path="produto_De_Matrizes"/>
 	<classpathentry kind="src" path="escada"/>
 	<classpathentry kind="src" path="formas_Geometricas"/>
+	<classpathentry kind="src" path="angulos_Graus_Minutos_Segundos"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23.0.1-oracle-x64">
 		<attributes>
 			<attribute name="module" value="true"/>
