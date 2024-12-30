@@ -9,6 +9,7 @@
 	<classpathentry kind="src" path="funções_Que_Recebem_Funções_199"/>
 	<classpathentry kind="src" path="testando_Predicate"/>
 	<classpathentry kind="src" path="stream_200"/>
+	<classpathentry kind="src" path="pipeline_201"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-23">
 		<attributes>
 			<attribute name="module" value="true"/>
