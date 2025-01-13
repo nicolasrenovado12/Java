@@ -1,6 +1,5 @@
 INDEX VERSION 1.134+/mnt/DECC06C3CC0695C5/Java/.metadata/.plugins/org.eclipse.jdt.core
 3418170381.index
-1442155378.index
 495321748.index
 323286379.index
 4071426965.index
@@ -9,18 +8,13 @@ INDEX VERSION 1.134+/mnt/DECC06C3CC0695C5/Java/.metadata/.plugins/org.eclipse.jd
 4173721152.index
 725940175.index
 2704878914.index
-1119028351.index
 1547945817.index
 784675755.index
-1476596646.index
 850348926.index
-1698967267.index
 1705102422.index
-598952417.index
 2991433333.index
 1865797976.index
 2448021083.index
-3309999843.index
 2432636873.index
 196551302.index
 3798284676.index
