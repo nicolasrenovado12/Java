@@ -10,6 +10,8 @@
 	<classpathentry kind="src" path="testando_Predicate"/>
 	<classpathentry kind="src" path="stream_200"/>
 	<classpathentry kind="src" path="pipeline_201"/>
+	<classpathentry kind="src" path="treino_1"/>
+	<classpathentry kind="src" path="treinando_O_Reduce"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-23">
 		<attributes>
 			<attribute name="module" value="true"/>

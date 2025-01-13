@@ -1,5 +1,6 @@
 package model.application;
 
+import java.sql.*;
 import java.util.Scanner;
 
 import model.entities.Shopping_Cart;

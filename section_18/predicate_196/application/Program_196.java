@@ -18,10 +18,7 @@ public class Program_196 {
 		double min = 100.0;
 		
 		list.removeIf(p -> p.getPrice() >= min);
-		
-		for (Product_2 product : list) { 
-			System.out.println(product.toString());
-		}
+		list.forEach(System.out::println);
 			
 		
 	}

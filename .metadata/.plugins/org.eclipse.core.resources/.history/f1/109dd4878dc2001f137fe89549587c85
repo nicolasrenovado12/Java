@@ -1,7 +1,0 @@
-package entities;
-
-public interface ShapeArea {
-
-	public double area();
-	
-}

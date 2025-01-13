@@ -14,8 +14,8 @@ public class Program_181 {
 		printList(myStr);
 	}
 
-	public static void printList(List<?> myInts) {
-		for (Object a : myInts) {
+	public static void printList(List<?> list) {
+		for (Object a : list) {
 			System.out.println(a);
 		}
 

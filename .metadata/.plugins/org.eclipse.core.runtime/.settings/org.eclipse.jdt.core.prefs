@@ -1,6 +1,14 @@
 eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/usr/lib/jvm/jdk-23.0.1-oracle-x64/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=/usr/lib/jvm/jdk-23.0.1-oracle-x64/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=/snap/eclipse/111/usr/lib/eclipse/plugins/org.junit_4.13.2.v20240929-1000.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=/home/nicolas-guilherme/.m2/repository
 org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
-org.eclipse.jdt.core.compiler.codegen.targetPlatform=21
-org.eclipse.jdt.core.compiler.compliance=21
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=23
+org.eclipse.jdt.core.compiler.compliance=23
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
 org.eclipse.jdt.core.compiler.release=enabled
-org.eclipse.jdt.core.compiler.source=21
+org.eclipse.jdt.core.compiler.source=23
+org.eclipse.jdt.core.userLibrary.\ MySQLConnector=<?xml version\="1.0" encoding\="UTF-8"?>\n<userlibrary systemlibrary\="false" version\="2">\n\t<archive path\="/home/nicolas-guilherme/Documents/java-libs/jdbc-connectors/mysql-connector-java-9.1.0.jar"/>\n</userlibrary>\n

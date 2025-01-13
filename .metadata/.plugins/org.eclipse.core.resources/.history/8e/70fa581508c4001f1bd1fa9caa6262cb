@@ -1,7 +1,0 @@
-package util;
-
-import entities.Product_2;
-
-public class Consumer  implements PriceUpdate<Product_2>{
-
-}

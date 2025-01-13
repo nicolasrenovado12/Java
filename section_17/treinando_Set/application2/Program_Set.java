@@ -1,5 +1,6 @@
 package application2;
 
+import java.sql.Connection;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -9,6 +10,8 @@ public class Program_Set {
 
 	public static void main(String[] args) {
 
+		Connection conn = buced.getConnection();
+		
 		Set<Client_2> set = new HashSet<>();
 		
 		set.add(new Client_2("Nicolas", 15));

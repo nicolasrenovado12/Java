@@ -1,9 +1,0 @@
-package application;
-
-public class Program_Geometria {
-
-	public static void main(String[] args) {
-
-	}
-
-}
