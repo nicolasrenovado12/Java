@@ -1,25 +1,8 @@
-INDEX VERSION 1.134+/mnt/DECC06C3CC0695C5/Java/.metadata/.plugins/org.eclipse.jdt.core
-3418170381.index
-495321748.index
-323286379.index
-4071426965.index
-1903779374.index
-2632850725.index
-4173721152.index
-725940175.index
-2704878914.index
-1547945817.index
-784675755.index
-850348926.index
-1705102422.index
-2991433333.index
-1865797976.index
-2448021083.index
-2432636873.index
-196551302.index
-3798284676.index
-4275185282.index
-3514833141.index
+INDEX VERSION 1.134+/media/nicolas-guilherme/Novo volume/Java/.metadata/.plugins/org.eclipse.jdt.core
 3037522390.index
-2790891604.index
-1791329824.index
+1924484980.index
+3435983562.index
+3062370144.index
+495321748.index
+1865797976.index
+850348926.index
