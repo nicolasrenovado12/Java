@@ -5,16 +5,16 @@ import java.util.Random;
 
 public class Random_Matriz_Service {
 
-	public static void randomizerMap(Map<Integer, String> matrixString, Map<Integer, String> ranks) {
+	public static void randomizerMap(Map<Integer, String> playerCards, Map<Integer, String> deck, Integer quantityOfPlayerCards) {	
 		
 		Random random = new Random();
 		
-		for(int i=0;i<matrixString.size();i++) {
+		for(int i=0;i<quantityOfPlayerCards;i++) {
 			
-			int lengthMatrixRandomizer = ranks.size();
+			int lengthMatrixRandomizer = deck.size();
 	    	int randomInt = random.nextInt(lengthMatrixRandomizer); 
 	    	
-	    	matrixString.put(randomInt, ranks.get(randomInt));
+	    	playerCards.put(randomInt, deck.get(randomInt));
 	    	
 	    	
 	    }

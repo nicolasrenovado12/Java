@@ -1,20 +1,22 @@
 package entities;
 
 import java.util.List;
+import java.util.Map;
+
 import entities.Letters;
 
 public class Player {
 	
 	private String name;
-	private Letters letters;
+	private Map<Integer, String> cardsPlayer;
 	
 	public Player(){
 	}
 	
-	public Player(String name, Letters letters) {
+	public Player(String name, Map<Integer, String>  cardsPlayer) {
 		super();
 		this.name = name;
-		this.letters = letters;
+		this.cardsPlayer = cardsPlayer;
 	}
 
 	public String getName() {
@@ -25,13 +27,15 @@ public class Player {
 		this.name = name;
 	}
 
-	public Letters getLetters() {
-		return letters;
+	public Map<Integer, String> getCardsPlayer() {
+		return cardsPlayer;
 	}
 
-	public void setLetters(Letters letters) {
-		this.letters = letters;
+	public void setCardsPlayer(Map<Integer, String> cardsPlayer) {
+		this.cardsPlayer = cardsPlayer;
 	}
+
+	
 	
 	
 	

@@ -2,6 +2,7 @@ package application;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -14,43 +15,44 @@ public class Program_Truco {
     public static void main(String[] args) {
         Random random = new Random();
         Scanner sc = new Scanner(System.in);
-        Map<Integer, String> ranks = Map.of(
-                1, "4",
-                2, "5",
-                3, "6",
-                4, "7",
-                5, "Valete",
-                6, "Dama",
-                7, "Rei",
-                8, "As",
-                9, "2",
-                10, "3"
-        );
-        Map<Integer, String> suits = Map.of(
-                1, "Copas",
-                2, "Ouros",
-                3, "Espadas",
-                4, "Paus"
-                
-        );
-          
+        Map<Integer, String> deck = new HashMap<>(); 
+        Map<Integer, String> symbols = Map.of(
+        		0, "4",
+        		1, "5",
+        		2, "6",
+        		3, "7",
+        		4, "Vallete",
+        		5, "Dama",
+        		6, "Rei",
+        		7, "1(ás)",
+        		8, "2",
+        		9, "3");
+        Map<Integer, String> suit = Map.of(
+        		1, "Ouros",
+        		2, "Espadas",
+        		3, "Copas",
+        		4, "Paus"
+        		);
+        int cardNumber = 0;
+   
+        for(int i=0; i<symbols.size(); i++) {
+        	for(int e=1; e<=suit.size(); e++) {
+        		deck.put(cardNumber, symbols.get(i)+suit.get(e));
+        		cardNumber++;
+        	}
+        }
         
-        System.out.println("Digit name of player: ");
-        String name = sc.next();
-        Map<Integer, String> ranksPlayer = new HashMap<>(); 
-        Map<Integer, String> suitsPlayer = new HashMap<>();
+        Map<Integer, String> playerCards = new HashMap<>(); 
         
+        /*
+        Random_Matriz_Service.randomizerMap(ranksPlayer, ranks, 3);
+        Random_Matriz_Service.randomizerMap(suitsPlayer, suits, 3);
         
-        Random_Matriz_Service.randomizerMap(ranksPlayer, ranks);
-        Random_Matriz_Service.randomizerMap(suitsPlayer, suits);
-        
-                
-        Letters letters = new Letters(ranksPlayer, suitsPlayer);
-        Player player = new Player(name, letters);
-                
-        
-        
-                
+        Letters letters = new Letters(ranksPlayer, suitsPlayer);;              
+        playerCards.forEach((key, value) -> {
+            System.out.println("Chave: " + key + " Valor: " + value);
+            });        
+          */      
                 
                 
     
