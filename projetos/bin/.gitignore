@@ -1,8 +1,4 @@
 /application/
+/entitites/
 /entities/
-/exception/
-/model/
-/objects/
-/program/
-/programs/
 /services/

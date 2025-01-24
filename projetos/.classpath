@@ -16,10 +16,7 @@
 	<classpathentry kind="src" path="formas_Geometricas"/>
 	<classpathentry kind="src" path="angulos_Graus_Minutos_Segundos"/>
 	<classpathentry kind="src" path="razão_Trigonometrica"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23.0.1-oracle-x64">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="src" path="truco_OOP"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-23.0.2-oracle-x64"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
