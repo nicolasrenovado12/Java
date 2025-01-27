@@ -8,7 +8,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 import entities.Player;
-import services.Random_Matriz_Service;
+import services.Random_Service;
+import services.Truco_Service;
 
 public class Program_Truco {
 
@@ -41,14 +42,21 @@ public class Program_Truco {
         		cardNumber++;
         	}
         }
+        
         System.out.println(deck);
+        int machineGame = 0;
+        
+        int machineRoundsWins = 0;
+        int playerRoundsWins = 0;
+        int playerWins = 0;
+        int machineWins = 0;
         System.out.println("Digit your name: ");
         String name = sc.next();        
         Map<Integer, String> playerCards = new HashMap<>(); 
         Map<Integer, String> machineCards = new HashMap<>();
         
-        Random_Matriz_Service.randomizerMap(playerCards, deck, 3);
-        Random_Matriz_Service.randomizerMap(machineCards, deck, 3);
+        Random_Service.randomizerMap(playerCards, deck, 3);
+        Random_Service.randomizerMap(machineCards, deck, 3);
         List<Integer> keysMachine = new ArrayList<>();
         List<Integer> keysPlayer = new ArrayList<>();
 
@@ -61,62 +69,131 @@ public class Program_Truco {
         playerCards.forEach((key, value) -> {
         	keysPlayer.add(key);
         	});
-        
+        Random_Service.randomizerMap(playerCards, deck, 3);
+        Random_Service.randomizerMap(machineCards, deck, 3);
+    	
+     
+        boolean trucado = false;
+        int addPointsRound = 1;
         boolean game = false;
         while(game == false) {
 
-        	int machineGame = random.nextInt(machineCards.size());
-            System.out.println("Your cards");
-            playerCards.forEach((key, value) -> {
-               	
-                	System.out.println("Chave: " + keysPlayer.indexOf(key) + " Valor: " + value);
-                   	
 
-                });
-;
+        	// print rounds win: 
+        	System.out.println("Rounds win of machine: " + machineRoundsWins);
+        	System.out.println("Rounds win of player: " + playerRoundsWins);
+        	System.out.println();
+        		int decisionMachine=0;
+                String decision;
+            	if (playerWins == 2) {
+            		System.out.println("Player won the round! ");
+                    playerRoundsWins+=addPointsRound;
+                   System.out.println("Do you want play again(yes or no)?");
+                    decision = sc.next();
+                    if (decision.toLowerCase().equals("yes")){
+                    	
+                    	playerWins=0;
+                    	Random_Service.randomizerMap(playerCards, deck, 3);
+                        Random_Service.randomizerMap(machineCards, deck, 3);
+                        addPointsRound=1;
+                        machineCards.forEach((key, value) -> {
+                        	keysMachine.add(key);
+                        	});
+                        playerCards.forEach((key, value) -> {
+                        	keysPlayer.add(key);
+                        	});
+                        game = false; 
+                        
+                    } else {
+                        game = true;
+                    }
+            	} else if (machineWins == 2) {
+	                System.out.println("Machine won the round! ");
+	                machineRoundsWins+=addPointsRound;
+                    System.out.println("Do you want play again(yes or no)?");
+                    decision = sc.next();
+                    System.out.println(decision);
+                    if (decision.toLowerCase().equals("yes")){
+                    	
+                    	machineWins=0;
+                    	Random_Service.randomizerMap(playerCards, deck, 3);
+                        Random_Service.randomizerMap(machineCards, deck, 3);
+                        machineCards.forEach((key, value) -> {
+                        	keysMachine.add(key);
+                        	});
+                        playerCards.forEach((key, value) -> {
+                        	keysPlayer.add(key);
+                        	});
+                        addPointsRound=1;
+                        game = false; 
+                    } else {
+                        game = true;
+                    }
 
-            System.out.println("Digit value of your card: ");
-            int playerGame = sc.nextInt();
-           
-            if (playerCards.get(keysPlayer.get(playerGame)) != null) {
-            	System.out.println("Your card:");
-            	System.out.println(playerCards.get(keysPlayer.get(playerGame)));
-               	playerCards.remove(keysPlayer.get(playerGame));
-               	
-              
-                System.out.println("Card of machine: ");
-                System.out.println(machineCards.get(keysMachine.get(machineGame)));
-                machineCards.remove(keysMachine.get(machineGame));
-                
-                
-                if(keysPlayer.get(playerGame) > keysMachine.get(machineGame)) {
-                    System.out.println("Player win");
-                    keysMachine.remove(keysMachine.get(machineGame));
-                    keysPlayer.remove(keysPlayer.get(playerGame));
-                    System.out.println();
-                    
                 } else {
-                    System.out.println("Machine win");
-                    keysMachine.remove(keysMachine.get(machineGame));
-                    keysPlayer.remove(keysPlayer.get(playerGame));
-                    System.out.println();
-                
-                }
+                	if (machineCards.size() > 0){
+                	    machineGame = random.nextInt(machineCards.size());
+                    }
+                	
 
-            } else {
-            	System.out.println("Digite um valor válido");
-            }
-        }    
-                
-                
-    
+                	if (trucado == false) {
 
+                        addPointsRound = Truco_Service.truco(decisionMachine, trucado);
+                        trucado = Truco_Service.askTruco(trucado, decisionMachine);
 
+                	} 
+                		
+                    
+                    System.out.println("Cards of " + player.getName());
+                    playerCards.forEach((key, value) -> {
+                        	System.out.println("Chave: " + keysPlayer.indexOf(key) + " Valor: " + value);
+                        });
 
+                    System.out.println("Digit value of your card: ");
+                    int playerGame = sc.nextInt();
+                    
+                	if (playerCards.get(keysPlayer.get(playerGame)) != null) {
+                		System.out.println("Your card:");
+                		System.out.println(playerCards.get(keysPlayer.get(playerGame)));
+                		playerCards.remove(keysPlayer.get(playerGame));
+                   	
+                  
+                		System.out.println("Card of machine: ");
+                		System.out.println(machineCards.get(keysMachine.get(machineGame)));
+                		machineCards.remove(keysMachine.get(machineGame));
+                    
+                    
+                		if (keysPlayer.get(playerGame) > keysMachine.get(machineGame)) {
+                			System.out.println("Player win");
+                			playerWins++;
+                			keysMachine.remove(keysMachine.get(machineGame));
+                			keysPlayer.remove(keysPlayer.get(playerGame));
+                			
+                			System.out.println();
+                        
+                		} else if (keysPlayer.get(playerGame) < keysMachine.get(machineGame)) {
+                			System.out.println("Machine win");
+                			machineWins++;
+                			keysMachine.remove(keysMachine.get(machineGame));
+                			keysPlayer.remove(keysPlayer.get(playerGame));
+               
+                        	
+                			System.out.println();
+                    
+                		} else {
+                			System.out.println("Draw");
+                			keysMachine.remove(keysMachine.get(machineGame));
+                			keysPlayer.remove(keysPlayer.get(playerGame));
+                			System.out.println();
+                		}
 
-
+                	} else {
+                		System.out.println("Digit a real value");
+                	}
+          
+                }            	
+        }
+	
     }
-	
-	
 	
 }

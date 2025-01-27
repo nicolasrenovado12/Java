@@ -3,8 +3,6 @@ package entities;
 import java.util.List;
 import java.util.Map;
 
-import entities.Letters;
-
 public class Player {
 	
 	private String name;
