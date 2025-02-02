@@ -1,2 +1,7 @@
 /metadata
 *.js
+xhr.js
+system.js
+dom5.js
+browserWindow.js
+baseBrowserLibrary.js
